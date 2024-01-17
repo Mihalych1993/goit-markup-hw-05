@@ -637,9 +637,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
+}
 
-
-.input[type="checkbox"]:checked + label span {
+.input[type="checkbox"]:checked + span-check {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
