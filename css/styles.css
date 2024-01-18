@@ -637,11 +637,34 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center;
     fill: transparent;
-    margin-right: 8px;
+    
+    
 }
 
-.span-check:checked   {
+#user-privacy:checked + .check-label .span-check {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
-  }
+}
+
+.privacy-link {
+    color: #4d5ae5;
+    text-decoration: underline;
+}
+.send-form {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    margin-left: 95px;
+}
