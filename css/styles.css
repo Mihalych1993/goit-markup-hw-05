@@ -2,6 +2,8 @@ body {
 font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
+width: 1440px;
+height: 100%;
 
 
 }
@@ -33,7 +35,7 @@ img {
 
 }
 .container  {
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
 }
@@ -149,9 +151,9 @@ text-transform: uppercase;
 }
 
 .solution {
-    background-color:  #2E2F42;
+    background:  #2E2F42;
     padding: 188px 0;
-    width: 1440px;
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -244,10 +246,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .our-team {
     background-color: #F4F4FD;
     padding: 120px 0;
-    
 }
-
-
 .name-team {
     font-size: 36px;
     line-height: 1.11;
@@ -718,3 +717,4 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     margin-left: 95px;
 }
+
